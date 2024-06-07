@@ -12,8 +12,9 @@ This script will create:
 -   1 router
 -   1 network
 -   1 instance
+-   1 floating ip
 
-### delete stack
+### Delete stack
 
 ```
 terraform destroy
