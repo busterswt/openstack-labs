@@ -84,6 +84,19 @@ See "man sudo_root" for details.
 ubuntu@vm01-lab01:~$
 ```
 
+To test connectivity to the running application, perform the following commands:
+
+```
+curl http://198.51.100.222
+```
+
+Example:
+
+```
+➜  01-simple-instance git:(main) ✗ curl http://198.51.100.222
+Hello World from host vm01-lab01!
+```
+
 ### Delete resources
 
 To delete the resources, perform the following commands:
