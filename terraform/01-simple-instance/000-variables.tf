@@ -26,7 +26,7 @@ variable "dns_ip" {
 #### VM parameters
 variable "flavor_http" {
   type    = string
-  default = "t2.medium"
+  default = "m1.small"
 }
 
 variable "network01-lab01" {

@@ -4,7 +4,7 @@
 #
 
 resource "openstack_compute_instance_v2" "vm01-lab01" {
-  name        = "web01"
+  name        = "vm01-lab01"
   image_name  = var.image
   flavor_name = var.flavor_http
   key_pair    = openstack_compute_keypair_v2.demo_key.name
