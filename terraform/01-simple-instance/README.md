@@ -9,9 +9,9 @@ This script will create:
 -   1 ssh keypair
 -   2 security groups
 
-[!WARNING]
-The SSH keypair generated here has been provided here for your convenience. In production,
-it is recommended to provide your own public/private keypair.
+> [!WARNING]
+> The SSH keypair generated here has been provided here for your convenience. In production,
+> it is recommended to provide your own public/private keypair.
 
 ![01-simple-instance](../img/01-simple-small.png "Simple Instance")
 
